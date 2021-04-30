@@ -12,16 +12,20 @@
       <button class="header__right-menu"><a href="#!"></a></button>
     </header>
     <main>
-      <div>
+      <div class="banner">
         <h2>Contact Us</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
-      <div>
-        <div>
-          <img src="./img/svg/Group.svg" alt="Contact Us" />
+      <div class="panels">
+        <div class="first-panel">
+          <img
+            src="./img/svg/Group.svg"
+            alt="Contact Us"
+            class="first-panel__pic"
+          />
           <h3>ADDRESS</h3>
           <p>
             Id convallis placerat sit sed duis id amet volutpat quam a,
@@ -29,18 +33,18 @@
           </p>
           <ul>
             <li><h3>PHONE</h3></li>
-            <li>+62-812-7313-4321</li>
-            <li>+62-817-000-1234</li>
+            <li class="first-panel__phonelink">+62-812-7313-4321</li>
+            <li class="first-panel__phonelink">+62-817-000-1234</li>
           </ul>
           <ul>
             <li><h3>ONLINE SERVICE</h3></li>
             <li>
-              <a href="#!"> www.afrianska.com </a>
+              <a href="#!" class="first-panel__contlink"> www.afrianska.com </a>
             </li>
-            <li>hello.afrian@gmail.com</li>
+            <li class="first-panel__emaillink">hello.afrian@gmail.com</li>
           </ul>
         </div>
-        <div>
+        <div class="second-panel">
           <h3>SEND US MESSAGE</h3>
           <p>Full Name</p>
           <form>
@@ -49,11 +53,11 @@
             <input type="text" name="surname1" placeholder="Your Email" />
             <p>Message</p>
             <input type="text" name="surname1" placeholder="Your Message" />
-            <button>Submit</button>
+            <button class="button-standart second-panel__button">Submit</button>
           </form>
         </div>
       </div>
-      <img src="./img/jpg/Map.jpg" alt="Map" />
+      <img src="./img/jpg/Map.jpg" alt="Map" class="map" />
     </main>
     <footer class="footer_contact-us">
       <div class="footer">
